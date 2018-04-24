@@ -9,7 +9,7 @@ The script does the following
 - Adds names to all other datasets without descriptive names
 - adds description to activity outcome data frame (only has id to start)
 - filters out variables that are not the standard deviation or mean
-- merges acivities with device data
+- merges activities with device data
 - does all the above for test and training sets and then row binds them
 - melts the data so the variables are in a single column
 - computes averages by subject, activity, and variable into a final tidy dataset. 
